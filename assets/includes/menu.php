@@ -27,12 +27,12 @@ require_once("functions.php");
                 </form>
               </div>
             </li>';
-        if(verif_auth(INSCRIT))
+        //if(verif_auth(INSCRIT))
         {echo'
             <li><a class="nav-link scrollto" href="login.html">Déconnexion</a>
             </li>';
         }
-         else
+         //else
         {echo'
             <li><a class="nav-link scrollto" href="login.html">Connexion</a>
             </li>';
