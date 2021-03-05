@@ -4,7 +4,7 @@ require_once("functions.php");
 
 <?php
     //session_start();
-    include("./link.php");
+    include("link.php");
     echo'
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
@@ -28,10 +28,10 @@ require_once("functions.php");
               </div>
             </li>';
         //if(verif_auth(INSCRIT))
-        {echo'
-            <li><a class="nav-link scrollto" href="login.html">Déconnexion</a>
-            </li>';
-        }
+        //{echo'
+        //    <li><a class="nav-link scrollto" href="login.html">Déconnexion</a>
+        //    </li>';
+        //}
          //else
         {echo'
             <li><a class="nav-link scrollto" href="login.html">Connexion</a>
