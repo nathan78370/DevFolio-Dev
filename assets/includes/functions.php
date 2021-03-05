@@ -15,4 +15,5 @@ function connexionbdd ()
 		}
 		return $con ;
 	}
+
 ?>

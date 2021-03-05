@@ -1,71 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <title>PPE</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-
-    <!-- Favicons -->
-    <link href="assets/img/logo.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-
-    <!-- =======================================================
-  * Template Name: DevFolio - v4.0.1
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  </head>
+<?php
+//Cette fonction doit être appelée avant tout code html
+session_start();
+include("assets/includes/menu.php");
+?>
 
   <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="index.html#about">Présentation</a></li>
-            <li><a class="nav-link scrollto active" href="index.html#work">PortFolio</a></li>
-            <li><input type="text" class="form-control" name="recherche" id="recherche" placeholder="Recherche" required /></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
-    </header>
-    <!-- End Header -->
-
     <div
       class="intro intro-single route bg-image"
       style="background-image: url(assets/img/PortFolio-4/fond-1.jpg)"
@@ -76,7 +15,10 @@
         <div class="table-cell">
           <div class="container">
           </br>
-            <h2 class="intro-title mb-4">PPE</h2>
+          </br>
+          </br>
+          </br>
+          </br>
             <!--<ol class="breadcrumb d-flex justify-content-center">
               <li class="breadcrumb-item">
                 <a href="#">Home</a>
@@ -93,6 +35,7 @@
       <section id="portfolio-details" class="portfolio-details">
         <div class="container">
           <div class="row gy-4">
+          <h1>PPE</h1>
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper-container">
                 <div class="swiper-wrapper align-items-center">

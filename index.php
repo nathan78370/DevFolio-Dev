@@ -4,7 +4,6 @@ session_start();
 include("assets/includes/menu.php");
 ?>
   <body>
-
     <!-- ======= Hero Section ======= -->
     <div
       id="fond"
@@ -503,7 +502,7 @@ include("assets/includes/menu.php");
                       </div>
                       <div class="col-sm-4">
                         <div class="w-like">
-                          <a href="Taff-1.html"> 
+                          <a href="Taff-1.php"> 
                             <span class="bi bi-plus-circle"></span>
                           </a>
                         </div>
@@ -535,7 +534,7 @@ include("assets/includes/menu.php");
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <a href="Taff-2.html">
+                        <a href="Taff-2.php">
                           <span class="bi bi-plus-circle"></span
                         ></a>
                       </div>
@@ -566,7 +565,7 @@ include("assets/includes/menu.php");
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <a href="Taff-3.html">
+                        <a href="Taff-3.php">
                           <span class="bi bi-plus-circle"></span
                         ></a>
                       </div>
@@ -597,7 +596,7 @@ include("assets/includes/menu.php");
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <a href="Taff-4.html">
+                        <a href="Taff-4.php">
                           <span class="bi bi-plus-circle"></span
                         ></a>
                       </div>

@@ -12,30 +12,22 @@ function togglePass() {
 // Form Validation
 
 function checkStuff() {
-  var email = document.form1.email;
+  var IdAdmin = document.form1.IdAdmin;
   var password = document.form1.password;
   var msg = document.getElementById("msg");
 
-  if (email.value == "") {
+  if (IdAdmin.value == "") {
     msg.style.display = "block";
-    msg.innerHTML = "Please enter your email";
-    email.focus();
+    msg.innerHTML = "Entrer le Nom Utilisateur";
+    IdAdmin.focus();
     return false;
   } else {
     msg.innerHTML = "";
   }
 
   if (password.value == "") {
-    msg.innerHTML = "Please enter your password";
+    msg.innerHTML = "Entre le Mot de Passe";
     password.focus();
-    return false;
-  } else {
-    msg.innerHTML = "";
-  }
-  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if (!re.test(email.value)) {
-    msg.innerHTML = "Please enter a valid email";
-    email.focus();
     return false;
   } else {
     msg.innerHTML = "";
