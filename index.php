@@ -1,8 +1,8 @@
 <?php
 //Cette fonction doit être appelée avant tout code html
 session_start();
-include("../assets/includes/menu.php");
-include("../assets/includes/link.php");
+include("assets/includes/menu.php");
+include("assets/includes/link.php");
 ?>
   <body>
 
