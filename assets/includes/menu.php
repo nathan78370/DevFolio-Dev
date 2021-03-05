@@ -20,7 +20,7 @@ require_once("functions.php");
             <li>
               <div class="container-fluid">
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i>
                     </button>
                   </input>
