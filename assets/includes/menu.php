@@ -29,8 +29,8 @@ require_once("functions.php");
             </li>';
         //if(verif_auth(INSCRIT))
         //{echo'
-        //    <li><a class="nav-link scrollto" href="login.php">Déconnexion</a>
-        //    </li>';
+        //    <li><a class="nav-link scrollto" href="#">Déconnexion</a></li>';
+        //    <li><a class="nav-link scrollto" href="index.php">Compte</a></li>';
         //}
          //else
         {echo'
