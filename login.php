@@ -14,13 +14,13 @@
 <div class="animated bounceInDown">
   <div class="container">
     <span class="error animated tada" id="msg"></span>
-    <form name="form1" class="box" onsubmit="return checkStuff()">
+    <form action="connexion.php" name="form1" class="box" onsubmit="return checkStuff()">
       <h4>PortFolio<span>Admin</span></h4>
       <h5><a href="index.php" style="text-decoration:none">Retour vers le PortFolio</a></h5>
-        <input type="text" name="IdAdmin" placeholder="Utilisateur" autocomplete="off">
+        <input type="text" name="username" placeholder="Utilisateur" autocomplete="off">
         <i class="typcn typcn-eye" id="eye"></i>
-        <input type="password" name="password" placeholder="Mot de Passe" id="pwd" autocomplete="off">
-        <input type="submit" value="Sign in" class="btn1">
+        <input type="password" name="password" placeholder="Mot de Passe" autocomplete="off">
+        <button type="submit" name="submit" class="btn1">Connexion</button>
       </form>
   </div> 
 </div>
