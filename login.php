@@ -12,8 +12,41 @@
 <body>
 <body id="particles-js"></body>
 <div class="animated bounceInDown">
+
   <div class="container">
     <span class="error animated tada" id="msg"></span>
+      <?php
+        if(isset($_GET['login_err']))
+        {
+          $err = htmlspecialchars($_GET['login_err']);
+
+          switch ($variable) {
+            case 'password':
+                ?>
+                <div class="alert alert-danger">
+                    <strong>Erreur</strong> mot de passe incorrect
+                </div>
+              <?php
+              break;
+
+             case 'username':
+                ?>
+                <div class="alert alert-danger">
+                    <strong>Erreur</strong> Nom incorrect
+                </div>
+              <?php
+              break;
+
+             case 'already':
+                ?>
+                <div class="alert alert-danger">
+                    <strong>Erreur</strong> Compte non existant
+                </div>
+              <?php
+              break;
+          }
+        }
+    ?>
     <form action="connexion.php" name="form1" class="box" onsubmit="return checkStuff()">
       <h4>PortFolio<span>Admin</span></h4>
       <h5><a href="index.php" style="text-decoration:none">Retour vers le PortFolio</a></h5>

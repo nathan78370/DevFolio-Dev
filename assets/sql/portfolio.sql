@@ -5,7 +5,7 @@ Use portfolio;
 Create table user (
 	id_u int(11) not null auto_increment,
 	pseudo varchar(10),
-	mdp varchar(255),
+	password text,
 	lvl int not null default 0,
 	primary key (id_u)
 ) ENGINE=InnoDB;

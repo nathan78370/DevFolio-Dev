@@ -7,7 +7,7 @@
         $username = htmlspecialchars($_POST['username']);
         $password = htmlspecialchars($_POST['password']);
 
-        $check = $bdd->prepare('SELECT pseudo, password  FROM utilisateurs WHERE pseudo = ?');
+        $check = $bdd->prepare('SELECT pseudo, password  FROM user WHERE pseudo = ?');
         $check->execute(array($pseudo));
         $data = $check->fetch();
         $row = $check->rowCount();
@@ -23,7 +23,7 @@
 
                     $_SESSION['user'] = $data['username'];
                     header('Location: admin.php');
-                }else header('Location: login.php?login_err=password');
+                }//else header('Location: login.php?login_err=password');
             }else header('Location: login.php?login_err=username');
         }else header('Location: login.php?login_err=already'); 
     }else header('Location: login.php');
